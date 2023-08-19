@@ -1,3 +1,4 @@
+import { Widget } from "./widget/Widget";
 function app() {
   const content = document.querySelector(".text-box-wrapper") as HTMLElement;
   const wrapper = document.querySelector(".text-box-wrapper") as HTMLElement;
@@ -13,3 +14,4 @@ function app() {
 }
 
 app();
+new Widget();

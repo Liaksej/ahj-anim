@@ -27,11 +27,11 @@ body {
 
 .btn:hover {
   background-color: #0056b3;
-  box-shadow: 0 0 4px #007bff;
 }
 
 .btn:active {
   background-color: #004085;
+  box-shadow: 0 0 5px #007bff;
 }
 
 .text-box-wrapper {
@@ -44,4 +44,12 @@ body {
   border: 2px whitesmoke solid;
   border-radius: 2px;
   padding: 20px;
+}
+
+.myty {
+  position: re;
+  border: 0;
+  width: 5px;
+  border-radius: 50px;
+  background-color: darkgray;
 }
