@@ -14,7 +14,7 @@ function app() {
     }
   };
 
-  const likeHandler = (event: MouseEvent) => {
+  const likeHandler = () => {
     const likeImg = document.createElement("img") as HTMLImageElement;
     likeImg.classList.add("like");
     likeImg.src = heartImage as string;
